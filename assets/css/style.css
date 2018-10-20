@@ -1,0 +1,135 @@
+body{
+    background-image: url("../images/background.png");
+    /* opacity: 0.5; */
+    color: #2c2b2b
+}
+
+.container{
+    opacity: 1;
+    margin: 0 auto;
+    margin-top: 3%;
+    font-size: 20px;
+    line-height: 32.36px;
+    width: 80%;
+    font-family: 'Jura', sans-serif;
+    
+}
+
+.header{
+    margin-bottom: 3%;
+    /* background-color: rgb(222, 223, 219); */
+    color: rgb(222, 223, 219);
+    text-align: center;
+    /* padding: 30px; */
+    font-size: 65px;
+    font-family: 'Paytone One', sans-serif;
+    line-height: 97.5px;
+}
+
+.instruction{
+    padding: 10px;
+    background-color: rgb(222, 223, 219);
+    margin-bottom: 3%;
+    font-size: 16px;
+    line-height: 25.888px;
+    text-align: center;
+
+}
+
+#randNumber{
+    background-color:  rgb(222, 223, 219);
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    width: 32%;
+    position: relative;
+    float:  left;  
+    padding: 26px 5px 26px 5px;
+    font-size: 50px;
+    text-align: center;  
+    box-sizing: border-box;
+    
+}
+
+.counter{
+    background-color:  rgb(222, 223, 219);
+    width: 65%;
+    font-weight: 500;
+    position: relative;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.numCountBox{
+    /* background-color: aquamarine; */
+    margin-bottom: 3%;
+    overflow: hidden;
+    /* padding: 10px; */
+    /* box-sizing: border-box; */
+}
+
+img{
+    width: 24.5%;
+    margin-bottom: 3%;
+}
+
+.scoreBox{
+    clear: both;
+    background-color:  rgb(222, 223, 219);
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
+
+#totalScore{
+    font-size: 40px;
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 931px){
+
+img{
+    width: 49.5%;
+    margin-bottom: 3%;
+}
+
+}
+
+@media only screen and (max-width: 620px){
+
+img{
+    width: 24%;
+    margin-bottom: 3%;
+    padding: 0px;
+}
+    
+}
+
+@media only screen and (max-width: 414px){
+
+img{
+    width: 48%;
+    margin-bottom: 3%;
+    padding: 0px;
+}
+
+.header{
+    margin-bottom: 3%;
+    /* background-color: rgb(222, 223, 219); */
+    color: rgb(222, 223, 219);
+    text-align: center;
+    /* padding: 30px; */
+    font-size: 45px;
+    font-family: 'Paytone One', sans-serif;
+    line-height: 67.5px;
+}
+
+#randNumber{
+    font-size: 40px;
+}
+    
+}
