@@ -76,7 +76,7 @@ $(".crystal-image4").on("click", function() {
 // new random number come up
 
 function win(){
-    // alert("You Win!");
+    alert("You Win!");
     wins++
     $("#winCounter").text(wins);
     reset();
@@ -87,7 +87,7 @@ function win(){
 // new random number come up
 
 function lose(){
-    // alert("You Lose!");
+    alert("You Lose!");
     losses++
     $("#loseCounter").text(losses);
     reset();
